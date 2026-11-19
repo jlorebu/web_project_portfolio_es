@@ -1,0 +1,43 @@
+@import url(./styles/normalize.css);
+@import url(./styles/header.css);
+@import url(./styles/content.css);
+@import url(./styles/card.css);
+@import url(./styles/footer.css);
+
+@font-face {
+  font-family: "Archivo Black";
+  src: url("./fonts/ArchivoBlack-Regular.woff") format("woff"),
+  url("./fonts/ArchivoBlack-Regular.woff2")format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("./fonts/OpenSans-Regular.woff") format("woff"),
+  url("./fonts/OpenSans-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("./fonts/OpenSans-Bold.woff") format("woff"),
+  url("./fonts/OpenSans-Bold.woff2") format("woff2");
+  font-style: normal;
+  font-style: 700;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("./fonts/OpenSans-SemiBold.woff") format("woff"),
+  url("./fonts/OpenSans-SemiBold.woff2") format("woff2");
+  font-style: normal;
+  font-style: 600;
+}
+
+body{
+  background-color: #1C1C1C;
+  font-family: "Open Sans";
+  font-weight: 100;
+}
