@@ -1,0 +1,24 @@
+.content{
+  margin-top: 100px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+h2{
+  font-family: "Archivo Black";
+  font-size: 2.5rem;
+  color: #FFFFFF;
+  margin: 0;
+}
+.content__list-links{
+  list-style: none;
+  margin-top: 54px;
+  margin-bottom: 100px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.contend__Cards{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}

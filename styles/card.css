@@ -1,0 +1,36 @@
+h3{
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  margin:0;
+  margin-left: 30px;
+}
+.card__image{
+  width: 590px;
+  height: 330px;
+  margin-top: 50px;
+}
+.card__info{
+  background-color: #1C1C1C;
+  max-width: 590px;
+  padding-top: 30px;
+}
+.card__text{
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-weight: 100;
+  font-size: 1em;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin-left: 30px;
+}
+.card__links{
+  margin-left: 30px;
+  margin-top: 31px;
+}
+
+.card__image-links{
+  height: 20px;
+  width: 20px;
+}
