@@ -17,6 +17,8 @@
   display: flex;
   flex-direction: column;
   color: #FFFFFF;
+  margin-top: 49px;
+  margin-bottom: 15px;
 }
 .header__subtitle{
   color: #FFFFFF80;
@@ -24,6 +26,7 @@
   font-weight: 100;
   font-size: 1em;
   letter-spacing: 1px;
+  margin: 0;
 
 }
 .header__text{
@@ -33,4 +36,29 @@
   font-size: 1em;
   padding-right: 20px;
   letter-spacing: 1px;
+  line-height: 1.5;
+  margin-top: 30px;
+
+}
+.header__list{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+.header__link-list{
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-weight: 700;
+  color: #FFFFFF;
+  padding-bottom: 5px;
+  background-image: linear-gradient(
+    to right,
+    #4C1A97,
+    #6D6DFF
+  );
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 4px;
 }
