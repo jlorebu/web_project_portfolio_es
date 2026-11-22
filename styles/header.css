@@ -1,3 +1,17 @@
+.header__light {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 290px;
+  right: 260px;
+  background: radial-gradient(
+    circle,
+    #6D6DFF 0%,
+    transparent 100%
+  );
+  filter: blur(100px);
+  z-index: -1;
+}
 .header__container{
   display: flex;
   flex-direction:row-reverse;
@@ -5,7 +19,17 @@
   padding-left: 120px;
   padding-right: 120px;
 }
-
+light {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-color: #6D6DFF;
+  border-radius: 50%;
+  filter: blur(100px);
+  top: 40px;
+  left: 428px;
+  z-index: 10;
+}
 .header__img{
   width: 387px;
   height: 500px;

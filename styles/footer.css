@@ -1,0 +1,39 @@
+footer{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.footer__light {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top:1700px;
+  right: 570px;
+  background: radial-gradient(
+    circle,
+    #6D6DFF 0%,
+    transparent 100%
+  );
+
+  filter: blur(100px);
+  pointer-events: none;
+  z-index: -1;
+  margin-inline: auto;
+}
+
+
+.footer__title-contact{
+  margin-bottom: 20px;
+}
+
+.footer__email{
+  color: #6D6DFF;
+  font-size: 1.125rem
+}
+.footer__list-links{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 80px;
+  margin-top: 30px;
+}
