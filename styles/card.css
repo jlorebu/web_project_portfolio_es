@@ -19,7 +19,6 @@ h3{
   object-fit: cover;
   margin-top: 50px;
 }
-
 .card__info{
   background-color: #1C1C1C;
   width: 100%;
@@ -81,22 +80,49 @@ h3{
 @media screen and (max-width: 768px) {
   .card{
     margin-top: 30px;
-}
+  }
   .card__image{
     margin: 0;
     padding: 0;
-}
+  }
   .card__text{
     margin-bottom: 20px;
-}
+  }
   .card__links{
     padding-top: 0;
     padding-bottom: 30px;
+  }
 }
 
-
+@media screen and (max-width: 320px) {
+  .card{
+    margin: 0;
+  }
+  h3{
+  font-size: 1.25rem;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 0;
+  line-height: 1.5;
+  }
+  .card__text{
+    font-size: 1rem;
+    letter-spacing: 0.4;
+    line-height: 1.4;
+  }
+ .card__links{
+  margin-right: 25px;
+  margin-left: 20px;
+  }
+  .card__content-skill-logos{
+  position: absolute;
+  top: 130px;
+  margin-left: 12px;
+  display: flex;
+  gap: 5px;
+  }
+  .card__skill-logo{
+  height: 20px;
+  width: 20px;
+  }
 }
-
-
-
-

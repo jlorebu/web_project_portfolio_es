@@ -17,6 +17,10 @@ h2{
   display: flex;
   justify-content: space-between;
 }
+.content__link-image{
+  height: 50px;
+  width: 50px;
+}
 .content__cards-container{
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -25,16 +29,43 @@ h2{
 
 @media screen and (max-width: 768px) {
   .content{
-  margin-top: 80px;
-  margin-left: 40px;
-  margin-right: 38px;
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-right: 38px;
+  }
+  .content__list-links{
+    margin-top: 44px;
+    margin-bottom: 83px;
+  }
+  .content__cards-container{
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+  }
 }
-.content__list-links{
-  margin-top: 44px;
-  margin-bottom: 83px;
-}
-.content__cards-container{
-  grid-template-columns: 1fr;
-  margin-top: 20px;
-}
+
+@media screen and (max-width: 320px) {
+  .content{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 60px;
+  }
+  h2{
+    font-size: 1.75rem;
+    margin: 0;
+  }
+  .content__link-image{
+    height: 30px;
+    width: 30px;
+  }
+  .content__list-links{
+    margin-top: 30px;
+    margin-bottom: 59.8px;
+    flex-wrap: wrap;
+    gap: 53px;
+    justify-content: flex-start;
+  }
+  .content__cards-container{
+    gap: 10px;
+  }
+
 }
