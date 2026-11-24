@@ -42,3 +42,11 @@ body{
   font-weight: 100;
   position: relative;
 }
+
+@media screen and (max-width: 768px) {
+body, html{
+  margin: 0;
+  padding: 0;
+}
+
+}
