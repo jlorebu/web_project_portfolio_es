@@ -74,7 +74,13 @@ h3{
 }
 .card__link-github{
   color: #FFFFFF99;
-  opacity: 0.6;
+}
+
+.card__links-list{
+  transition: opacity 0.3s ease;
+}
+.card__links-list:hover {
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 768px) {

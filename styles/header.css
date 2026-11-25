@@ -73,6 +73,12 @@
   background-position: bottom;
   background-size: 100% 4px;
 }
+.header__link-list{
+  transition: opacity 0.3s ease;
+}
+.header__link-list:hover{
+  opacity: 0.5;
+}
 
 @media screen and (max-width: 768px) {
   .header__container{
