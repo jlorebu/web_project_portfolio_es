@@ -1,12 +1,3 @@
-# Portafolio
-
-Pdte
-////////////////
-El archivo README.md contiene: 
- El nombre del proyecto. 
- Una descripción del proyecto y su funcionalidad. 
- Una descripción de las tecnologías y técnicas utilizadas.  El enlace a GitHub Pages.
-
 Portafolio Personal
 
 Descripción del Proyecto
@@ -30,10 +21,9 @@ Flexbox: Distribución flexible y alineación de elementos.
 
 Demo en Vivo
 
-Ver el sitio web en GitHub Pages
+https://jlorebu.github.io/web_project_portfolio_es/
 
-
-
+------------------------------------------------------------------------------------------------------------------
 
 Personal Portfolio Website
 
@@ -58,6 +48,6 @@ The project was developed using:
 
 Live Demo
 
-View the website on GitHub Pages
+https://jlorebu.github.io/web_project_portfolio_es/
 
 
